@@ -4,7 +4,6 @@ import numpy as np
 import json
 
 def getTestData():
-    print(os.getcwd())
     imageFiles = os.listdir("./data/images")
     jsonData = json.load(open("data/test_data.json", "r"))
 
